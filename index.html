@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <title>Document</title>
+</head>
+
+<body>
+   <body bgcolor="252E2A"
+
+    <¡-- Sección global de la página --!>
+    <div class="container">
+       
+        <div class="row"> 
+         
+         <strong></strong>
+        </div>
+        
+        <div class="row">
+            <form class="col s12">
+                
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">Nombre</label></strong>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Apellido</label>
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input type="number" name="age_name" id="age_name" class="validate">
+                        <label for="age_name">Edad</label>
+                    </div>
+                 
+                  <div class="input-field col s3">
+                    <label>
+                        <input class="with-gap" name="group1" type="radio"/>
+                        <span>Femenino</span>
+                      </label>
+                </div>
+                <div class="input-field col s3">
+                    <label>
+                        <input class="with-gap" name="group1" type="radio"/>
+                        <span>Masculino</span>
+                      </label>
+                </div>
+            </div>
+           
+            <div class="row center-block">
+                <div class="col s6 center-align">
+                    <label>Estado civil</label>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="1">Soltero</option>
+                        <option value="2">Divorciado</option>
+                        <option value="3">Casado</option>
+                        <option value="4">Unión libre</option>
+                        <option value="5">Pareja de hecho</option>
+                    </select>
+                </div>
+            </div>
+        
+            <div class="row center-align">
+                <div class="col s6">
+                    <label>Tipo documento</label>
+                    <select class="browser-default">
+                        <option value="" disabled selected>Seleccione una opción</option>
+                        <option value="1">C.C.</option>
+                        <option value="2">Pasaporte</option>
+                        <option value="3">C.E.</option>
+                        <option value="4">NUIP</option>
+                        <option value="5">Tarjeta militar</option>
+                        <option value="6">PEP</option>
+                    </select>
+                </div>
+                <div class="input-field col s6">
+                    <i class="material-icons prefix ">assignment</i>
+                    <input id="userId" type="number" class="validate">
+                    <label for="userId">Número de documento</label>
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class=" input-field col s6 ">
+                    <i class="material-icons prefix">phone</i>
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">Telephone</label>
+                </div>
+                <div class=" input-field col s6 ">
+                    <i class="material-icons prefix">email</i>
+                    <input id="userEmail" type="email" class="validate">
+                    <label for="userEmail">Correo electrónico</label>
+                    <span class="helper-text" data-error="error, trate nuevamente " data-success="right"></span>
+                </div>
+            </div>
+         
+            <div class="row center-align">
+                <label>
+                    <input type="checkbox" />
+                    <span>Acepto el tratamiento de mis datos personales.</span>
+                  </label>
+            </div>
+          
+            <div class="row center-align">
+                <label>
+                    <input type="checkbox" />
+                    <span>Quiero recibir notificaciones a mi correo electrónico.</span>
+                  </label>
+            </div>
+        
+            <div class="row center-align">
+            
+                <div class="col s6">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Aceptar
+                        <i class="material-icons right">send</i>
+                      </button>
+                </div>
+               
+                <div class="col s6">
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Cancelar
+                        <i class="material-icons right">not_interested</i>
+                      </button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+  
+
+
+<script src="js/materialize.min.js "></script>
+</body>
+
+</html>
